@@ -525,7 +525,7 @@
         if (line.useAvatar && line.nickInfo) {
             NSString* screenName = line.nickInfo;
             TwitterAvatarURLManager* avatarManager = [TwitterAvatarURLManager instance];
-            NSString* avatarImageURL = [avatarManager imageURLForTwitterScreenName:screenName];
+            NSString *avatarImageURL = [NSString stringWithFormat:@"http://tanpaku.grouptube.jp/images/users/%@/icon/s.jpg", screenName];
             if (!avatarImageURL) {
                 [avatarManager fetchImageURLForTwitterScreenName:screenName];
                 if (!fetchingAvatarScreenNames) {

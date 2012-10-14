@@ -1687,18 +1687,16 @@
 		78E570D40C1C306500BDF7EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application: Satoshi Nakagawa";
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = Others/Normal/Info.plist;
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		78E570D50C1C306500BDF7EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application: Satoshi Nakagawa";
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = Others/Normal/Info.plist;
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -1,16 +1,25 @@
-# HOW TO SELF BUILD
+# LimeChat (forked) Show Tanpaku2 Avatar
+
+***DO NOT ASK TO ORIGINAL AUTHOR ABOUT THIS FORK***
+
+## HOW TO SELF BUILD
 
 * Open Xcode proj
+* Build Settings -> Code Signing Identity -> Don't Code Sign
 * Build (`cmd + B`)
 * Navigate `Products` -> `LimeChat.app`
 * Right-click and open in Finder
 * Get debug build, copy .app to /Application, run it
 
-![limechat1](https://s3.amazonaws.com/kyanny/limechat1.png?AWSAccessKeyId=ASIAJMAABVVT4XSQ2J7Q&Expires=1365051917&Signature=1CkEuUdwEW8rzAfgs3Xw2ytRgEg%3D&x-amz-security-token=AQoDYXdzELb//////////wEawAI8c4O/GfF7zhXk4WvpWqZdElo7cMuDBdewIXyN0JxfELl3Tvo1CsvNLowIRViO5w%2B7%2Bt/CU1l9cSGbcSXprdRrCe8nyMxwDf0O/46c3Dxo5/LZAOpzS6T1LQD5iL9OjylnLKFx25KmSC/ky%2BfsSG0gktmfOYD/An7VYZ3%2BAWnhxlOXZQNT9U20eg8ekOublBw4NMUKeJx5KPzK/oAZyrEfyBcK%2BhxMU9v85LAq6yawB6WfLhvMpBj38GKjyb4/LzJPW9WsggoB06OCYV0W9XAXTGEmD4Hq8UUI/Nuj42cpZSKP6IpPJdAcVOLQ%2B5s92OMp6k8AQlFPsiYcbKBeVJxA7DSUqttf4d8nXngD8tFwmapQtIR9gPHBZeDeAEYrwyTRX03d/J%2BPpQX3AkUDdq8xM/DCnwvt6WH4DUu2DvXgyyCnkfSKBQ%3D%3D)
+![Don't Code Sign](https://s3.amazonaws.com/kyanny/limechat4.png) 
 
- ![limechat2](https://s3.amazonaws.com/kyanny/limechat2.png?AWSAccessKeyId=ASIAJMAABVVT4XSQ2J7Q&Expires=1365051932&Signature=rRilFJsWiHE%2BL433LBvBmtrlL68%3D&x-amz-security-token=AQoDYXdzELb//////////wEawAI8c4O/GfF7zhXk4WvpWqZdElo7cMuDBdewIXyN0JxfELl3Tvo1CsvNLowIRViO5w%2B7%2Bt/CU1l9cSGbcSXprdRrCe8nyMxwDf0O/46c3Dxo5/LZAOpzS6T1LQD5iL9OjylnLKFx25KmSC/ky%2BfsSG0gktmfOYD/An7VYZ3%2BAWnhxlOXZQNT9U20eg8ekOublBw4NMUKeJx5KPzK/oAZyrEfyBcK%2BhxMU9v85LAq6yawB6WfLhvMpBj38GKjyb4/LzJPW9WsggoB06OCYV0W9XAXTGEmD4Hq8UUI/Nuj42cpZSKP6IpPJdAcVOLQ%2B5s92OMp6k8AQlFPsiYcbKBeVJxA7DSUqttf4d8nXngD8tFwmapQtIR9gPHBZeDeAEYrwyTRX03d/J%2BPpQX3AkUDdq8xM/DCnwvt6WH4DUu2DvXgyyCnkfSKBQ%3D%3D)
+![Build](https://s3.amazonaws.com/kyanny/limechat1.png)
 
-  ![limechat3](https://s3.amazonaws.com/kyanny/limechat3.png?AWSAccessKeyId=ASIAJMAABVVT4XSQ2J7Q&Expires=1365051944&Signature=FuVuXIk5PqhVFdVKMUnY3xtj58k%3D&x-amz-security-token=AQoDYXdzELb//////////wEawAI8c4O/GfF7zhXk4WvpWqZdElo7cMuDBdewIXyN0JxfELl3Tvo1CsvNLowIRViO5w%2B7%2Bt/CU1l9cSGbcSXprdRrCe8nyMxwDf0O/46c3Dxo5/LZAOpzS6T1LQD5iL9OjylnLKFx25KmSC/ky%2BfsSG0gktmfOYD/An7VYZ3%2BAWnhxlOXZQNT9U20eg8ekOublBw4NMUKeJx5KPzK/oAZyrEfyBcK%2BhxMU9v85LAq6yawB6WfLhvMpBj38GKjyb4/LzJPW9WsggoB06OCYV0W9XAXTGEmD4Hq8UUI/Nuj42cpZSKP6IpPJdAcVOLQ%2B5s92OMp6k8AQlFPsiYcbKBeVJxA7DSUqttf4d8nXngD8tFwmapQtIR9gPHBZeDeAEYrwyTRX03d/J%2BPpQX3AkUDdq8xM/DCnwvt6WH4DUu2DvXgyyCnkfSKBQ%3D%3D)
+![Show Finder](https://s3.amazonaws.com/kyanny/limechat2.png)
+
+![Debug Build](https://s3.amazonaws.com/kyanny/limechat3.png)
+
+----
 
 # LimeChat
 
